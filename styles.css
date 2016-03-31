@@ -1,0 +1,46 @@
+html,
+body {
+  height:100%;
+}
+
+img {
+  max-width:100%;
+}
+
+/* cover */
+
+#cover {
+  background: #222 url('img/stars.jpg')center center no-repeat;
+  background-size: cover;
+  color:white;
+  height:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.cover-caption {
+  width:100%;
+}
+
+.section-content {
+  padding:5rem 0; /*REM = relative to the root(html) and what its font-size is. Because we're using bootstrap, their default font-size is 16px, so 1rem = 16px. Whereas em, is refernces the parens font-size.*/
+}
+
+#about {
+  background: url('img/girlincar.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding: 1.875rem;
+}
+
+#footer-main {
+  background: #222;
+  color:white;
+  font-size:0.8rem;
+  padding:2.5rem 0;
+}
